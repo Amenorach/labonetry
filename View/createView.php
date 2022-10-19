@@ -1,7 +1,7 @@
 <?php
-require "./db_connection.php";
+require "./Settings/db_connection.php";
 
-require "./create.php";
+require "./Functions/create.php";
 ?>
  
 <!DOCTYPE html>

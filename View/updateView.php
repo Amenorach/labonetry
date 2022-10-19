@@ -1,6 +1,6 @@
 <?php
-require "db_connection.php";
-require "update.php";
+require "./Settings/db_connection.php";
+require "./Functions/update.php";
 ?>
 
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <?php
-require "db_connection.php";
-require "delete.php";
+require "./Settings/db_connection.php";
+require "./Functions/delete.php";
 ?>
 
 <!DOCTYPE html>
