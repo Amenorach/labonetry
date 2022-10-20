@@ -1,5 +1,5 @@
 <?php
-include_once "index.php";
+// include_once "../index.php";
 ?>
 <html lang="en">
 <head>

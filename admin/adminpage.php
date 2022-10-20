@@ -1,5 +1,5 @@
 <?php
-require_once "./Settings/db_connection.php";
+require_once "../Settings/db_connection.php";
 ?>
 
 <!DOCTYPE html>

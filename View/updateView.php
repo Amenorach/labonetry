@@ -1,6 +1,6 @@
 <?php
-require "./Settings/db_connection.php";
-require "./Functions/update.php";
+require "../Settings/db_connection.php";
+require "../Functions/update.php";
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ require "./Functions/update.php";
                         </div>
                         <input type="hidden" name="pid" value="<?php echo $pid; ?>"/>
                         <input type="submit" class="btn btn-primary" value="Submit">
-                        <a href="index.php" class="btn btn-secondary ml-2">Cancel</a>
+                        <a href="../index.php" class="btn btn-secondary ml-2">Cancel</a>
                     </form>
                 </div>
             </div>        

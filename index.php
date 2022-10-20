@@ -1,6 +1,5 @@
 <?php
-require_once "./Settings/db_connection.php";
-require_once "./Login/registerprocess.php";
+require_once "Login/registerprocess.php";
 ?>
 
 <!DOCTYPE html>
@@ -30,12 +29,12 @@ require_once "./Login/registerprocess.php";
 
 
         <!-- Custom styles for this template -->
-        <link href="./CSS/._signin.css" rel="stylesheet">
+        <link href="CSS/signin.css" rel="stylesheet">
 </head>
-<body class="text-center" style="background-image: url('./Images/blur.jpg');">
+<body class="text-center" style="background-image: url('Images/blur.jpg');">
 
     <main class="form-signin">
-            <img class="mb-4" src="./Images/phoneLogo.png" alt="Phone Handle" width="72" height="57">
+            <img class="mb-4" src="Images/phoneLogo.png" alt="Phone Handle" width="72" height="57">
             <div class="text-white">
                 <h2>Sign Up</h2>
                 <p>Please fill this form to create an account.</p>

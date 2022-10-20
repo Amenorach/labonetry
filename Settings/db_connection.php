@@ -1,5 +1,5 @@
 <?php
-require "./Settings/dbConnectCredentials.php";
+require "dbConnectCredentials.php";
 
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 

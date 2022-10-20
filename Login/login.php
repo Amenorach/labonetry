@@ -1,7 +1,3 @@
-<?php
-require_once "./Settings/db_connection.php";
-include "index.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,27 +30,25 @@ include "index.php";
 
 
         <!-- Custom styles for this template -->
-        <link href="./CSS/._signin.css" rel="stylesheet">
+        <link href="../CSS/signin.css" rel="stylesheet">
     </head>
-
-    <body class="text-center" style="background-image: url('blur.jpg');">
-
+    <body class="text-center" style="background-image: url('../Images/blur.jpg');">
 
         <main class="form-signin">
             <form method="post" action="loginprocess.php">
-                <img class="mb-4" src="./Images/phoneLogo.png" alt="Phone handle" width="72" height="57">
+                <img class="mb-4"  src="../Images/phoneLogo.png" alt="Phone handle" width="72" height="57">
                 <h1 class="h3 mb-3 fw-normal">Please Sign In</h1>
 
                 <div class="form-floating">
-                    <input type="email" class="form-control" name="email" placeholder="email" required="required">
+                    <input type="email" class="form-control" name="customer_email" placeholder="email" required="required">
                     <label>Email address</label>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" name="password" placeholder="password" required="required">
+                    <input type="password" class="form-control" name="customer_pass" placeholder="password" required="required">
                     <label>Password</label>
                 </div>
 
-                <div class="checkbox mb-3 text-white">
+                <div class="checkbox mb-3 text-black">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>

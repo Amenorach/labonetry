@@ -1,8 +1,6 @@
 <?php
 // Include database connection file
-require_once "./Settings/db_connection.php";
-// include "index.php";
-include_once "./View/home.php";
+ require "Settings/db_connection.php";
  
 // Define variables and initialize with empty values
 $customer_name = $telephone = $address = $email = $password = "";
@@ -74,7 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Records created successfully. Redirect to landing page
-                header("location: home.php");
+                header("location: Login/login.php");
                 exit();
             } else{
                 echo "Oops! Something went wrong. Please try again later.";

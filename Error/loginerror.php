@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="mt-5 mb-3">Invalid Request</h2>
-                    <div class="alert alert-danger">Sorry, you typed in an invalid email or password. Please <a href="signIn_page.php" class="alert-link">go back</a> and try again.</div>
+                    <div class="alert alert-danger">Sorry, you typed in an invalid email or password. Please <a href="../Login/login.php" class="alert-link">go back</a> and try again.</div>
                 </div>
             </div>        
         </div>
